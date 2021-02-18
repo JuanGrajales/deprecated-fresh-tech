@@ -7,7 +7,7 @@
 - Are there any improvements you could make to your submission?
   Towards the end styling changes became more tedious so I would add Sass before the project gets any bigger.
 - What would you do differently if you were allocated more time?
-  I would add automated tests to ensure that nothing breaks when implementing new features, chagne the frontend to Next.js to simplify the routing in the frontend, add Sass to maintain styling consistent.
+  I would add automated tests to ensure that nothing breaks when implementing new features, add Sass to maintain styling consistent, polish the styling on the mobile and tablet views, made the header sticky to improve UI in the Series/Movies pages, and improve my deployment build.
 
 ## Demo
 
