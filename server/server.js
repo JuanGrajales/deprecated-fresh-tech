@@ -30,7 +30,12 @@ router.post("/drop-db", async (ctx, next) => {
 });
 
 router.get("/entries", async (ctx, next) => {
-  let res = await Entry.find({ programType: ctx.query.entryType }).limit(21);
+  let res = await Entry.find({
+    programType: ctx.query.entryType,
+    releaseYear: { $gte: 2010 },
+  })
+    .sort({ title: 1 })
+    .limit(21);
   ctx.body = res;
 });
 

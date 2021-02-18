@@ -14,7 +14,7 @@ const Entries = ({
 
   useEffect(() => {
     getEntries();
-  });
+  }, []);
 
   const getEntries = async () => {
     let res = await actions.entries(entryType);

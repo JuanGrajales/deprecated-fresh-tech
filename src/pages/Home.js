@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = ({ setPage }) => {
   useEffect(() => {
     setPage("Titles");
-  });
+  }, []);
 
   return (
     <>
