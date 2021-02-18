@@ -5,9 +5,9 @@
 - How did you decide on the technical and architectural choices used as part of your solution?
   The client file structure is broken up into pages (these resuse components) , resuable components, services (e.g. APIs), and context folder. Most styling was kept in the component scope. This approach minimized code redundancy and faciliate styling changes. Due to the time constraint Context API was used instead of Redux.
 - Are there any improvements you could make to your submission?
-  Towards the end styling changes became more tedious so I would add Sass before the project gets any bigger.
+  Towards the end styling changes became more tedious so adding Sass before the project gets any bigger would help future styling changes, fix deployment build (currently there is a bug when you reload anywhere that is not the home page), and improve the navbar and footer styling in the mobile and tablet views.
 - What would you do differently if you were allocated more time?
-  I would add automated tests to ensure that nothing breaks when implementing new features, add Sass to maintain styling consistent, polish the styling on the mobile and tablet views, made the header sticky to improve UI in the Series/Movies pages, and improve my deployment build.
+  I would add automated tests to ensure that nothing breaks when implementing new features, add Sass to maintain styling consistent, polish the styling on the mobile and tablet views, make the header sticky to improve UI in the Series/Movies pages, and improve my deployment build.
 
 ## Demo
 
